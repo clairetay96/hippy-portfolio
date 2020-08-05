@@ -1,19 +1,96 @@
-/* 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
 
-Style Hints: 
 
-Body Font Size = 14px
-	 Font Family = "Times New Roman", serif
-	 Font Color = black
-	 Background: #F3EBE9
+body {
+	font-size: 14px;
+	font-family: serif;
+	background: #F3EBE9;
+	background-image: url("../images/pattern1.png");
+}
 
-H1 Font Size = 50px
-   Font Family = Arial, Helvetica, sans-serif
-   Text-transform: uppercase;
-   color: #FFFFFF;	(White)
+.page {
+	width: 65%;
+	margin: 0 auto;
+	background: white;
+}
 
-H2: Font Size = 18px
-	Text-Transform: uppercase;
-	Font-Family: cursive, Helvetica, sans-serif;
+.header {
+	background: #EF776E;
+	padding: 10px 0 30px 15px;
+}
 
-*/
+h1 {
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: white;
+}
+
+ h2 {
+ 	font-size: 18px;
+ 	text-transform: uppercase;
+ 	font-family: cursive, Helvetica, sans-serif;
+ }
+
+ h2.subheader {
+ 		margin: 0 10px 20px 15px;
+ 		text-decoration: underline;
+ }
+
+ p {
+ 	margin: 0 10px 20px 15px;
+ }
+
+img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.images {
+	width: 96%;
+	margin: 0 auto;
+	align-content: center;
+}
+
+.rowImage{
+	padding: 1px;
+	margin-bottom: 15px;
+	border: 2px solid gray;
+	width: 23%;
+}
+
+
+.footer {
+	text-align: right;
+	background: #EF776E;
+	font-size: 12px;
+	color: white;
+	padding: 20px 12px 20px 12px;
+}
